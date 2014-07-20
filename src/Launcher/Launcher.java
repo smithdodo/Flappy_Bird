@@ -8,7 +8,6 @@ import GameEntity.*;
 
 import org.lwjgl.Sys;
 import org.newdawn.slick.*;
-import org.newdawn.slick.geom.Vector2f;
 
 public class Launcher extends BasicGame {
 	static Input input;
@@ -16,9 +15,9 @@ public class Launcher extends BasicGame {
 	public static Random r;
 	Bird player;
 	// speed of obstacle
-	public static float SPEED = 3.5f;
+	public static float SPEED = 3f;
 	public static List<Obstacle> obs;
-	public static final long INTERVAL = 1000;
+	public static final long INTERVAL = 1700;
 	public long lastObstacal;
 	public static boolean gameOver;
 	boolean impacted;
@@ -74,7 +73,7 @@ public class Launcher extends BasicGame {
 		}
 
 		// generate obstacle each second
-		if (Sys.getTime() - lastObstacal > this.INTERVAL) {
+		if (Sys.getTime() - lastObstacal > Launcher.INTERVAL) {
 			obs.add(new Obstacle("obstc"));
 			lastObstacal = Sys.getTime();
 		}
@@ -121,7 +120,7 @@ public class Launcher extends BasicGame {
 			g.drawImage(ground, grd.getPosX(), grd.getPosY());
 		}
 		g.setColor(Color.red);
-		g.drawString(this.score.toString(), 270f, 10f);
+		g.drawString(Launcher.score.toString(), 270f, 10f);
 		if (gameOver) {
 			g.setColor(Color.lightGray);
 			g.drawString("GAME OVER!!", 100, 200);

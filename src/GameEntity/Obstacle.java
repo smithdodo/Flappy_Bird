@@ -2,8 +2,6 @@ package GameEntity;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Random;
-
 import Launcher.Launcher;
 
 import org.newdawn.slick.geom.*;
