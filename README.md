@@ -2,6 +2,6 @@
 
 um foudamentale slick2d Klassen zu lernen.
 
-screen shot
+screen shot:
 
-![](https://github.com/smithdodo/Flappy_Bird/master/assets/screen-shot.png)
+![](https://github.com/smithdodo/Flappy_Bird/blob/master/assets/screen-shot.png)
