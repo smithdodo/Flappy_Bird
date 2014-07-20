@@ -1,7 +1,7 @@
 ##Flappy_Bird
 
-um slick2d foudamentale Klassen zu lernen
+um foudamentale slick2d Klassen zu lernen.
 
 screen shot
 
-![](https://github.com/smithdodo/Flappy_Bird/master/assets/screenShot.jpg)
+![](https://github.com/smithdodo/Flappy_Bird/master/assets/screen-shot.png)
