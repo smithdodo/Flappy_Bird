@@ -1,5 +1,4 @@
-Flappy_Bird
-===========
+##Flappy_Bird
 
 um slick2d foudamentale Klassen zu lernen
 
