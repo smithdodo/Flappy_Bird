@@ -16,9 +16,9 @@ public class Launcher extends BasicGame {
 	public static Random r;
 	Bird player;
 	// speed of obstacle
-	public static float SPEED = 10;
+	public static float SPEED = 3.5f;
 	public static List<Obstacle> obs;
-	public static final long INTERVAL = 1500;
+	public static final long INTERVAL = 1000;
 	public long lastObstacal;
 	public static boolean gameOver;
 	boolean impacted;
