@@ -64,7 +64,7 @@ public class Launcher extends BasicGame {
 
 		if (gameOver) {
 			gameOver=false;
-			//arg0.pause();
+			arg0.pause();
 		}
 
 		player.update(input);
